@@ -19,6 +19,7 @@ public class LambdaWithComparator {
 
         System.out.println(Arrays.toString(stringArray));
 
+
 //Using lambda functions
         Arrays.sort(stringArray,(o1,o2)-> {
             return o1.length()-o2.length();

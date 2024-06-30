@@ -7,5 +7,7 @@ public class LambdaWithPredicate {
         Predicate<String> stringLengthGreaterFive = s-> s.length()>5;
         System.out.println(stringLengthGreaterFive.test("Elephant"));
         System.out.println(stringLengthGreaterFive.test("Hi"));
+
+
     }
 }

@@ -12,6 +12,7 @@ public class Iterate {
             System.out.println(i+" ");
         });
 
+
 //        Using method reference
         newStringList.forEach(System.out::println);
     }

@@ -13,6 +13,7 @@ public class Lambda {
         List<String> reverseList = new ArrayList<>();
         for(int i =fruitNames.size()-1; i>=0; i--){
             reverseList.add(fruitNames.get(i));
+
         }
 
         //Example 02: Filter a List of Integers(Even numbers in the List)

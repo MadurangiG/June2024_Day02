@@ -10,7 +10,6 @@ public class LambdaWithRunnable {
         };
 
         Runnable runnable2 = () -> System.out.println("I am runnable 2.");
-
         runnable1.run();
         runnable2.run();
     }
